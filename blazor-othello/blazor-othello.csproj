@@ -1,11 +1,1 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
-
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>blazor-othello</RootNamespace>
-    <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
-  </PropertyGroup>
-
-</Project>
+[blazor-othello.csproj content after modification]
