@@ -1,9 +1,17 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36119.2 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor-othello", "blazor-othello\blazor-othello.csproj", "{3315C5CB-05BB-426C-B460-55BA87D4F71B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor-othello", "blazor-othello\\blazor-othello.csproj", "{3315C5CB-05BB-426C-B460-55BA87D4F71B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "src\\Models\\Models.csproj", "{2599D433-A367-40F7-91FF-1B123E079A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModels", "src\\ViewModels\\ViewModels.csproj", "{F9D1D030-B779-4B6C-B6BB-FDDA68F67A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Views", "src\\Views\\Views.csproj", "{AB2A0B63-3CE8-4E93-8A73-5B16F4B0A01E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OthelloTests", "tests\\OthelloTests.csproj", "{05C77C0C-B353-4BAD-AE23-3E8C2EC3A0A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{3315C5CB-05BB-426C-B460-55BA87D4F71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3315C5CB-05BB-426C-B460-55BA87D4F71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3315C5CB-05BB-426C-B460-55BA87D4F71B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2599D433-A367-40F7-91FF-1B123E079A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2599D433-A367-40F7-91FF-1B123E079A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2599D433-A367-40F7-91FF-1B123E079A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2599D433-A367-40F7-91FF-1B123E079A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D1D030-B779-4B6C-B6BB-FDDA68F67A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D1D030-B779-4B6C-B6BB-FDDA68F67A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D1D030-B779-4B6C-B6BB-FDDA68F67A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D1D030-B779-4B6C-B6BB-FDDA68F67A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2A0B63-3CE8-4E93-8A73-5B16F4B0A01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2A0B63-3CE8-4E93-8A73-5B16F4B0A01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2A0B63-3CE8-4E93-8A73-5B16F4B0A01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2A0B63-3CE8-4E93-8A73-5B16F4B0A01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C77C0C-B353-4BAD-AE23-3E8C2EC3A0A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C77C0C-B353-4BAD-AE23-3E8C2EC3A0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C77C0C-B353-4BAD-AE23-3E8C2EC3A0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C77C0C-B353-4BAD-AE23-3E8C2EC3A0A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
