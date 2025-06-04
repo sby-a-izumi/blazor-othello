@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36119.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor-othello", "blazor-othello\blazor-othello.csproj", "{3315C5CB-05BB-426C-B460-55BA87D4F71B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3315C5CB-05BB-426C-B460-55BA87D4F71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3315C5CB-05BB-426C-B460-55BA87D4F71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3315C5CB-05BB-426C-B460-55BA87D4F71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3315C5CB-05BB-426C-B460-55BA87D4F71B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC6E5753-3D78-4B51-876D-7B7766B919DF}
+	EndGlobalSection
+EndGlobal
