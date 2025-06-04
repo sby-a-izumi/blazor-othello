@@ -1,8 +1,18 @@
 @page "/othello"
 @using BlazorOthello.ViewModels
-
-@inherits OthelloGameViewModel
+@inject OthelloGameViewModel ViewModel
 
 <div>
-    <!-- Game UI elements, bindings, etc. -->
+    <h3>Othello Game</h3>
+    <table>
+        @for (int i = 0; i < 8; i++)
+        {
+            <tr>
+                @for (int j = 0; j < 8; j++)
+                {
+                    <td>@ViewModel.GetPlayerAt(i, j)</td>
+                }
+            </tr>
+        }
+    </table>
 </div>
